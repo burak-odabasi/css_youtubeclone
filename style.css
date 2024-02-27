@@ -3,3 +3,36 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #ffffff;
+  padding: 0.2rem;
+}
+
+/* header
+------------------------------------------------ */
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid rgb(252, 0, 0);
+  padding: 0.1rem 0.3rem;
+}
+
+header > section {
+  /* border: 1px solid rgb(55, 255, 0); */
+}
+header > section.left {
+}
+header > section.middle {
+  display: flex;
+}
+header > section.middle > .searchbar {
+  display: flex;
+}
+header > section.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* main
+------------------------------------------------ */
